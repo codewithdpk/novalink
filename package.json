@@ -1,0 +1,38 @@
+{
+  "name": "@0xdeepak/wallets",
+  "version": "0.0.6",
+  "description": "Multi wallet connection provider library built on the top of the web3-react. Works with pure React and Nextjs.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format cjs --dts --external react"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^3.6.6",
+    "@walletconnect/ethereum-provider": "^2.7.8",
+    "@web3-react/coinbase-wallet": "^8.2.0",
+    "@web3-react/core": "^8.2.0",
+    "@web3-react/eip1193": "^8.2.0",
+    "@web3-react/empty": "^8.2.0",
+    "@web3-react/gnosis-safe": "^8.2.0",
+    "@web3-react/metamask": "^8.2.0",
+    "@web3-react/network": "^8.2.0",
+    "@web3-react/types": "^8.2.0",
+    "@web3-react/url": "^8.2.0",
+    "@web3-react/walletconnect": "^8.2.0",
+    "@web3-react/walletconnect-v2": "^8.3.1",
+    "ethers": "^5.7.2",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^7.1.0",
+    "web3": "^1.8.0",
+    "web3-core": "1.8.2",
+    "web3-utils": "^1.8.1",
+    "web3modal": "^1.9.12"
+  },
+  "author": "Deepak Suthar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "typecript": "0.0.1-security"
+  }
+}
